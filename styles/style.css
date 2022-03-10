@@ -1,3 +1,10 @@
+color {
+	a: hsl(217, 19%, 35%);
+	a: hsl(214, 17%, 51%);
+	a: hsl(212, 23%, 69%);
+	background: hsl(210, 46%, 95%);
+}
+
 * {
 	box-sizing: inherit;
 }
@@ -8,7 +15,8 @@ html {
 
 body {
 	box-sizing: border-box;
-	font-family: '', sans-serif;
+	font-family: 'Manrope', sans-serif;
+	background: hsl(210, 46%, 95%);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -16,4 +24,84 @@ body {
 	height: 100vh;
 	overflow: hidden;
 	margin: 0;
+}
+
+.article {
+	background: rgb(255, 255, 255);
+	border-radius: 10px;
+	width: 32.7rem;
+}
+
+.article__hero {
+	width: 32.7rem;
+}
+
+.article__img {
+	border-radius: 10px 10px 0 0;
+	width: 100%;
+}
+
+.article__content {
+	margin: 5px 32px;
+}
+
+.article__title {
+	color: hsl(217, 19%, 35%);
+	font-size: 1.5rem;
+	line-height: 24px;
+	font-weight: 700;
+	letter-spacing: .2px;
+}
+
+.article__text {
+	color: hsl(214, 17%, 51%);
+	font-size: 1.3rem;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: .2px;
+}
+
+.article__details {
+	display: flex;
+	align-items: center;
+	margin: 0 32px;
+}
+
+.article__img-wrapper {
+	margin: 10px 10px 10px 0;
+	width: 40px;
+}
+
+.img--round {
+	border-radius: 50%;
+}
+
+.article__author-info {
+	padding: 5px;
+}
+
+.article__author-name {
+	font-weight: 700;
+	margin-bottom: 0;
+	font-size: 1.2rem;
+}
+
+.article__publish-date {
+	margin-top: 0;
+	color: hsl(212, 23%, 69%);
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.article__btn {
+	background: hsl(210, 46%, 95%);
+	border: none;
+	cursor: pointer;
+	margin: 0 0 0 50px;
+	padding: 10px;
+	width: 32px;
+}
+
+.btn--round {
+	border-radius: 50px;
 }
