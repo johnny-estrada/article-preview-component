@@ -28,6 +28,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # Main files
-/[Aa]rticle-preview-component-master/
+/[Dd]esign/
+/[Mm]aster/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows
